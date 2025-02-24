@@ -5522,6 +5522,19 @@ img.left {
 
 /* ====================== [ End Helper Classes  ] ====================== */
 /* ====================== [ Start Colors Skin  ] ====================== */
+@media (min-width: 350px) and (max-width: 666px) {
+  .fz-45{
+    font-size: 30px !important;
+
+  }
+}
+@media (min-width: 350px) and (max-width: 666px) {
+    .fz-45{
+      font-size: 30px !important;
+
+    }
+}
+
 body:not(.light) .theme-icon .sun {
   display: none; }
 
@@ -6174,7 +6187,7 @@ body.light {
       color: #fff !important; }
   .navbar .logo {
     margin-left: 15px;
-    width: 60px; }
+    width: 110px; }
   .navbar .navbar-toggler {
     position: absolute;
     top: 10px;
