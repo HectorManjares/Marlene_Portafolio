@@ -60,7 +60,12 @@
 
 @media screen and (max-width: 576px) {
   .container, .container-sm {
-    max-width: 540px; } }
+    max-width: 540px; }
+
+    .section-padding {
+      padding-top: 25px !important;
+      padding-bottom: 25px !important}
+  }
 
 @media screen and (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
